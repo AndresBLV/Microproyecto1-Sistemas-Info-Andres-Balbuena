@@ -285,6 +285,11 @@ body{
 .b4{ height: 75%}
 .b5{ height: 85%}
 
+.redes{
+    max-width: 20%;
+    height: 10vh;
+}
+
 
 @media (max-width: 600px) {
     nav{
