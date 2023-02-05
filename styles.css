@@ -1,9 +1,13 @@
+@import 'reset/variables', 'reset/mixins' , 'reset/reset' ,'reset/keyframes';
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background: beige;
 }
+
 
 .nav-enlace{
     display: inline-block;
@@ -34,18 +38,31 @@ nav{
 }
 
 .carrousel{
+    flex-basis: 50%;
+    padding-top: 10px;
+    color: black;
+    text-align: center;
     width: 100%;
     max-width: 100%;
-    padding: 2em;
+    overflow: hidden;
+    @include neo( 1 , 1em , 1em );
+}
+
+.carrousel h1{
+    font-size: 32px;
+    line-height: .9;
+
 }
 
 .carrousel .grande{
-    width: 200%;
+    width: 310%;
+    margin-top: 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    padding: 2em;
+    @include neo( 1 , 1em , 1em );
+
 
     transition: all .5s ease;
     transform: translateX(0%);
@@ -53,7 +70,9 @@ nav{
 
 .carrousel .img{
     width: calc(100%/3 - 2em);
-    min-height: 10vh;
+    min-height: 80vh;
+    @include neo( 1 , 1em , 1em );
+
 }
 
 .carrousel .points{
@@ -70,9 +89,11 @@ nav{
     width: 2em;
     height: 2em;
     margin: 1em 1em 0;
+    @include neo( 1 , 1em , .6em );
+
 }
 
-.carrousel .point.activo{
+.carrousel .point.activate{
     background-color: orange;
 }
 
