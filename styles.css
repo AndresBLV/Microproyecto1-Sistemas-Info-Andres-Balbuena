@@ -37,10 +37,49 @@ nav{
     display: flex;
     max-width: 100%;
     height: 80vh;
-    background-image: url(hero1.jpg);
+    background-image: url(hero2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
+}
+
+.contender .wrap{
+    max-width: 100px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+}
+
+.contender .wrap .box{
+    flex-basis: 50%;
+    color: black;
+    text-align: left;
+    align-self: center;
+}
+
+.contender .wrap .box h1{
+    font-size: 32px;
+    line-height: .9;
+    padding-bottom: 10px;
+}
+
+.contender .wrap .box .btn{
+    display: flex;
+    margin-top: 30px;
+    flex-flow: row wrap;
+}
+
+.contender .wrap .box .btn .btn1{
+    flex-basis: 30%;
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 @media (max-width: 600px) {
