@@ -133,6 +133,10 @@ nav{
     background: aliceblue;
 }
 
+.contender{
+    background-image: url(foto.jpg);
+}
+
 
 
 @media (max-width: 600px) {
