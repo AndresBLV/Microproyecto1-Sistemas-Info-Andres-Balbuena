@@ -109,6 +109,32 @@ nav{
     justify-content: space-around;
 }
 
+.name h1{
+    text-align: center;
+    padding: auto;
+    background: antiquewhite;
+}
+
+.objetivo h1{
+    padding: auto;
+    background: antiquewhite;
+}
+
+.objetivo p{
+    background: aliceblue;
+}
+
+.motivacion h1{
+    padding: auto;
+    background: antiquewhite;
+}
+
+.motivacion p{
+    background: aliceblue;
+}
+
+
+
 @media (max-width: 600px) {
     nav{
         flex-direction: column;
