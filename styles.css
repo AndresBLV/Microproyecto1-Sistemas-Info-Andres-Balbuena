@@ -97,6 +97,17 @@ nav{
     background-color: orange;
 }
 
+.imagen{
+    width: 15%;
+    padding: auto;
+}
+
+.proyecto{
+    text-align: center;
+    display: block;
+    padding:15px;
+    justify-content: space-around;
+}
 
 @media (max-width: 600px) {
     nav{
